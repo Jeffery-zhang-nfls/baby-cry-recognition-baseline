@@ -27,7 +27,7 @@ import PIL
 
 from utils import Bar, AverageMeter, accuracy, mkdir_p
 import models as customized_models
-from data_loader import SoftmaxDatasetByFeatures
+from datasets import TrainDatasetByFeatures
 from loss_utils import AMSoftmax
 
 
